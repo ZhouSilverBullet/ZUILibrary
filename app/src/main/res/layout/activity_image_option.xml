@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".imageoption.ImageOptionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnNotClip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="图片取出来直接使用" />
+
+        <Button
+            android:id="@+id/btnClip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="图片直接缩放" />
+
+        <Button
+            android:id="@+id/btnClip2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="图片按原来比例缩放" />
+
+        <Button
+            android:id="@+id/btnClip3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="图片按原来比例缩放 matrix" />
+
+        <Button
+            android:id="@+id/btnClip4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="图片错切" />
+
+        <ImageView
+            android:id="@+id/ivSource"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorAccent"
+            android:src="@drawable/mb_icon" />
+
+        <ImageView
+            android:id="@+id/ivComplete"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent" />
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

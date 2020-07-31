@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".book.chapter1.Chapter1Activity">
+
+    <!--        <com.uilib.book.chapter1.widget.PaintTest2View-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--    <com.uilib.book.chapter1.widget.PaintTouchView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.uilib.book.chapter1.widget.PathFillTypeView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+    <!--    <com.uilib.book.chapter1.widget.RectIntersectsView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content" />-->
+
+    <!--    <com.uilib.book.chapter1.widget.RectUnitView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content" />-->
+    <!--    <com.uilib.book.chapter1.widget.SpiderView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content" />-->
+    <!--    <com.uilib.book.chapter1.widget.PaintTest3View-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.uilib.book.chapter1.widget2.RegionView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content" />-->
+    <com.uilib.book.chapter1.widget2.CanvasView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

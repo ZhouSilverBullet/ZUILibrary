@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uilib">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".book.chapter2.AnimationActivity"></activity>
+        <activity android:name=".book.chapter1.Chapter1Activity" />
+        <activity android:name=".book.SelfViewActivity" />
+        <activity android:name=".flowlayout.FlowLayoutActivity" />
+        <activity android:name=".imageoption.ImageOptionActivity" />
+        <activity android:name=".textdraw.TextDrawActivity" />
+        <activity android:name=".yyb.YybButtonActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
