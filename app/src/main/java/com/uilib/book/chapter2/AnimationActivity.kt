@@ -58,7 +58,7 @@ class AnimationActivity : AppCompatActivity() {
                 Animation.RELATIVE_TO_SELF,
                 0.5f
             )
-            rotateAnimation.repeatCount = Animation.INFINITE
+            rotateAnimation.repeatCount = 1
             rotateAnimation.duration = 2000
             rotateAnimation.fillAfter = true
 
@@ -68,15 +68,15 @@ class AnimationActivity : AppCompatActivity() {
                 Animation.RELATIVE_TO_SELF,
                 0.5f
             )
-            scaleAnimation.repeatCount = Animation.INFINITE
+            scaleAnimation.repeatCount = 2
             scaleAnimation.duration = 800
             scaleAnimation.fillAfter = true
             scaleAnimation.interpolator = OvershootInterpolator()
 
             set.addAnimation(rotateAnimation)
             set.addAnimation(scaleAnimation)
-//            set.fillAfter = true
-//            set.duration = 2000
+            set.fillAfter = true
+            set.duration = 2000
             //这个设置了没什么作用
             set.repeatCount = Animation.INFINITE
             set.repeatMode = Animation.REVERSE

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".book.chapter2.AnimationActivity"></activity>
+        <activity android:name=".book.chapter3.AnimatorActivity"></activity>
+        <activity android:name=".book.chapter2.AnimationActivity" />
         <activity android:name=".book.chapter1.Chapter1Activity" />
         <activity android:name=".book.SelfViewActivity" />
         <activity android:name=".flowlayout.FlowLayoutActivity" />

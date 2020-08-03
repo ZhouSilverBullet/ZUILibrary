@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.uilib.R
 import com.uilib.book.chapter1.Chapter1Activity
 import com.uilib.book.chapter2.AnimationActivity
+import com.uilib.book.chapter3.AnimatorActivity
 import kotlinx.android.synthetic.main.activity_self_view.*
 
 class SelfViewActivity : AppCompatActivity() {
@@ -21,6 +22,9 @@ class SelfViewActivity : AppCompatActivity() {
         }
         btnChapter2.setOnClickListener {
           startActivity(Intent(this, AnimationActivity::class.java))
+        }
+        btnChapter3.setOnClickListener {
+            startActivity(Intent(this, AnimatorActivity::class.java))
         }
     }
 }
