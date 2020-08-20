@@ -2,12 +2,17 @@ package com.uilib.book.chapter2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.animation.*
 import com.uilib.R
 import kotlinx.android.synthetic.main.activity_animation.*
 
 class AnimationActivity : AppCompatActivity() {
+    companion object {
+        const val TAG = "AnimationActivity"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_animation)
@@ -38,15 +43,15 @@ class AnimationActivity : AppCompatActivity() {
             val set = AnimationSet(false)
             set.setAnimationListener(object : Animation.AnimationListener {
                 override fun onAnimationRepeat(animation: Animation?) {
-
+                    Log.e(TAG, "onAnimationRepeat");
                 }
 
                 override fun onAnimationEnd(animation: Animation?) {
-
+                    Log.e(TAG, "onAnimationEnd");
                 }
 
                 override fun onAnimationStart(animation: Animation?) {
-
+                    Log.e(TAG, "onAnimationStart");
                 }
             })
 
@@ -73,6 +78,7 @@ class AnimationActivity : AppCompatActivity() {
             scaleAnimation.fillAfter = true
             scaleAnimation.interpolator = OvershootInterpolator()
 
+
             set.addAnimation(rotateAnimation)
             set.addAnimation(scaleAnimation)
             set.fillAfter = true
@@ -97,7 +103,7 @@ class AnimationActivity : AppCompatActivity() {
         }
     }
 
-    private fun setAnim(view: View, offset:Long) {
+    private fun setAnim(view: View, offset: Long) {
         val scaleAnimation = ScaleAnimation(
             1f,
             3f,

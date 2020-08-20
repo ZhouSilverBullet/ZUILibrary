@@ -31,5 +31,12 @@
             android:layout_height="wrap_content"
             android:text="Chapter3动画1"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnChapter13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chapter13手势操作"
+            android:textAllCaps="false" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

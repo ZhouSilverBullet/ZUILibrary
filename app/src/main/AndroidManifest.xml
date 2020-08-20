@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".book.chapter3.AnimatorActivity"></activity>
+        <activity android:name=".touchevent.TouchDelegateActivity"></activity>
+        <activity android:name=".anr.AnrActivity" />
+        <activity android:name=".touchevent.TouchEvent3Activity" />
+        <activity android:name=".touchevent.TouchEvent2Activity" />
+        <activity android:name=".touchevent.TouchEventActivity" />
+        <activity android:name=".tanxian.chapter8.CreateWindowActivity" />
+        <activity android:name=".tanxian.TanXianActivity" />
+        <activity android:name=".book.chapter13.GestureDetector1Activity" />
+        <activity android:name=".book.chapter3.AnimatorActivity" />
         <activity android:name=".book.chapter2.AnimationActivity" />
         <activity android:name=".book.chapter1.Chapter1Activity" />
         <activity android:name=".book.SelfViewActivity" />

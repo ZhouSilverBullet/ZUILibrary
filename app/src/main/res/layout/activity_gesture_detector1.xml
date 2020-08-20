@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".book.chapter13.GestureDetector1Activity">
+
+    <!--    <com.uilib.book.chapter13.widget.GestureDetectorView-->
+    <!--        android:id="@+id/gdvView"-->
+    <!--        android:background="#83A6DD"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+<!--    <com.uilib.book.chapter13.widget.photo.PhotoView-->
+<!--        android:id="@+id/photoView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:visibility="gone" />-->
+
+    <com.uilib.book.chapter13.widget.MyPhotoView
+        android:id="@+id/myPhotoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -45,5 +45,34 @@
             android:layout_height="wrap_content"
             android:text="Android自定义控件开发入门与实践" />
 
+        <Button
+            android:id="@+id/btnDeveloper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android开发艺术探索" />
+
+        <Button
+            android:id="@+id/btnTouchEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android事件分发" />
+
+        <Button
+            android:id="@+id/btnTouchEvent3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android事件分发3" />
+
+        <Button
+            android:id="@+id/btnTouchDelegate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android扩大点击范围" />
+
+        <Button
+            android:id="@+id/btnAnr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android ANR 分析" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

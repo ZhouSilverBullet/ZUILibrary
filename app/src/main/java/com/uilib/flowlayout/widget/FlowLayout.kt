@@ -1,6 +1,7 @@
 package com.uilib.flowlayout.widget
 
 import android.content.Context
+import android.graphics.Canvas
 import android.util.AttributeSet
 import android.util.Log
 import android.view.View
@@ -189,6 +190,11 @@ constructor(context: Context, set: AttributeSet? = null, defAttr: Int = 0) :
             //换下一行
             heightIndex++
         }
+    }
+
+    override fun onDraw(canvas: Canvas?) {
+        super.onDraw(canvas)
+        Log.e(TAG, "----onDraw----")
     }
 
     override fun generateLayoutParams(attrs: AttributeSet?): LayoutParams {
